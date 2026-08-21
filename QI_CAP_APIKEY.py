@@ -1,0 +1,17 @@
+# INTERNAL CODE - DLP TEST ONLY
+# This file contains intentionally fake credentials for DLP testing.
+# DO NOT USE THESE VALUES FOR AUTHENTICATION.
+
+INTERNAL-CODE: ZSCALER-DLP-TEST-ABC12345
+
+API_KEY = "sk_test_FAKE_DLP_KEY_1234567890abcdef"
+API_TOKEN = "FAKE_API_TOKEN_DLP_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+AWS_ACCESS_KEY_ID = "AKIAFAKEDLPTEST123456"
+GITHUB_TOKEN = "ghp_FAKE_DLP_TEST_1234567890abcdef"
+
+# Additional internal marker
+X-INTERNAL-CODE: INTERNAL-DLP-2026-TEST
+
+def test_api_call():
+    api_key = "sk_test_FAKE_DLP_KEY_1234567890abcdef"
+    return "DLP test payload"
